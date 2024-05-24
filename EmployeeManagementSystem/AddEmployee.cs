@@ -115,9 +115,9 @@ namespace EmployeeManagementSystem
 
                 Hide();
             }
-            catch (Exception ex)
+            catch (Exception error)
             {
-                MessageBox.Show(ex.Message, "Add Employee", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show(error.Message, "Add Employee", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
 
