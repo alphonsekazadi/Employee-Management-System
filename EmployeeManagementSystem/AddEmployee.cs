@@ -2,7 +2,7 @@
 using System.Drawing;
 using System.Windows.Forms;
 using EmployeeManagementSystem.Data;
-
+using System.Data;
 namespace EmployeeManagementSystem
 {
     /***********
@@ -77,6 +77,7 @@ namespace EmployeeManagementSystem
         private void OnMouseUp(object sender, MouseEventArgs e)
         {
             _dragging = false;
+
         }
 
         private void LblClose_Click(object sender, EventArgs e)
